@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Asap', sans-serif;
+}
+.two-body-features{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.fast-internet-feature{
+    flex: 1;
+    text-align: center;
+    background-color: #e40044;
+    color: white;
+    font-size: 1.5rem;
+    margin: 20px;
+    padding: 25px;
+    
+}
+.narrow-container-two{
+    width: 50%;
+    margin-left: 25%;
+}
+.main-about{
+    width: 90%;
+    display: flex;
+    margin-left:5%;
+}
+.about-image-side{
+    flex: 1;
+    padding-left: 200px;
+    padding-top: 25px;
+}
+.about-para{
+    flex: 1;
+}
+.about-parag{
+    font-size: 1.25rem;
+    font-weight: 450;
+}
+@media (max-width:1330px){
+    .fast-internet-feature{
+        flex: 1;
+        text-align: center;
+        background-color: #e40044;
+        color: white;
+        font-size: 1.5rem;
+        margin: 10px;
+        padding: 15px;
+        
+    }
+    .about-image-side{
+        flex: 1;
+        padding-left: 100px;
+    }
+}
+@media (max-width:1170px){
+    .fast-internet-feature{
+        flex: 1;
+        text-align: center;
+        background-color: #e40044;
+        color: white;
+        font-size: 1.25rem;
+        margin: 5px;
+        padding: 10px;
+        
+    }
+    .main-about{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-side{
+        text-align: center;
+    }
+}
+@media (max-width:930px){
+    .fast-internet-feature{
+        flex: 1;
+        text-align: center;
+        background-color: #e40044;
+        color: white;
+        font-size: 1rem;
+        margin-left: 10px;
+        padding: 5px;
+        
+    }
+}
+@media (max-width:755px){
+    .two-body-features{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .fast-internet-feature{
+        flex: 1;
+        text-align: center;
+        background-color: #e40044;
+        color: white;
+        font-size: 1rem;
+        margin: 10px;
+        padding: 15px;
+        width: 100%;
+    }
+    .about-image-side{
+        text-align: center;
+        margin-left: -10%;
+        height: 80%;
+        width: 100%;
+    }
+}
+@media (max-width:646px){
+    .about-image-side{
+        text-align: center;
+        margin-left: -20%;
+        height: 80%;
+        width: 100%;
+    }
+}
+@media (max-width:550px){
+    .about-image-side img{
+        height: 80%;
+        width: 100%;
+    }
+}

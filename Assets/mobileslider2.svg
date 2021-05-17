@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="591" height="523" viewBox="0 0 591 523">
+  <defs>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Asap');
+</style>  
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="1281" height="554" transform="translate(0 -0.47)"/>
+    </clipPath>
+    <clipPath id="clip-mobileslider2">
+      <rect width="591" height="523"/>
+    </clipPath>
+  </defs>
+  <g id="mobileslider2" clip-path="url(#clip-mobileslider2)">
+    <rect width="591" height="523" fill="#fff"/>
+    <g id="mobilebanner" transform="translate(-334 -29.53)" clip-path="url(#clip-path)">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="1281" height="554" transform="translate(0 -0.47)" fill="#fff"/>
+      <rect id="Rectangle_2-2" data-name="Rectangle 2" width="1931" height="492" transform="translate(-325 74.53)" fill="#141c3a"/>
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="572.561" height="98.925" rx="12" transform="translate(342.205 31.957)" fill="#fff"/>
+      <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(552.588 185.084)" fill="#e40044" stroke="#fff" stroke-width="5">
+        <circle cx="87.881" cy="87.881" r="87.881" stroke="none"/>
+        <circle cx="87.881" cy="87.881" r="85.381" fill="none"/>
+      </g>
+      <path id="Icon_ionic-ios-call" data-name="Icon ionic-ios-call" d="M74.342,60.82a60.415,60.415,0,0,0-12.62-8.445c-3.782-1.816-5.169-1.779-7.845.149-2.229,1.6-3.67,3.108-6.234,2.546S40.021,50.689,35.126,45.8,26.4,35.84,25.859,33.286s.956-3.995,2.546-6.234c1.928-2.676,1.984-4.064.149-7.845A59.221,59.221,0,0,0,20.1,6.573c-2.754-2.754-3.371-2.154-4.887-1.6a27.81,27.81,0,0,0-4.474,2.378,13.5,13.5,0,0,0-5.377,5.664c-1.065,2.3-2.3,6.591,3.995,17.789A99.258,99.258,0,0,0,26.8,54.082h0l.019.019.019.019h0A99.647,99.647,0,0,0,50.116,71.57C61.3,77.861,65.6,76.63,67.906,75.565a13.27,13.27,0,0,0,5.672-5.374,27.81,27.81,0,0,0,2.378-4.474C76.494,64.191,77.112,63.573,74.342,60.82Z" transform="translate(600.014 232.502)" fill="#fff"/>
+      <text id="_7310444123" data-name="7310444123" transform="translate(480.685 430.485)" fill="#fff" font-size="51" font-family="SFProDisplay-Bold, SF Pro Display" font-weight="700"><tspan x="0" y="0">7310444123</tspan></text>
+      <line id="Line_1" data-name="Line 1" x2="413" transform="translate(434 463.53)" fill="none" stroke="#e40044" stroke-width="1"/>
+      <path id="Path_1" data-name="Path 1" d="M0,0H178.426" transform="translate(551.256 463.375)" fill="none" stroke="#e40044" stroke-width="5"/>
+      <rect id="Rectangle_1-2" data-name="Rectangle 1" width="508" height="89" rx="12" transform="translate(376 31.53)" fill="#e40044"/>
+      <text id="Get_Phone_Support" data-name="Get Phone Support" transform="translate(400 94.53)" fill="#fff" font-size="51" font-family="SFProDisplay-Bold, SF Pro Display" font-weight="700"><tspan x="0" y="0">Get Phone Support</tspan></text>
+      <path id="Polygon_1" data-name="Polygon 1" d="M19.973,0,39.946,39.946H0Z" transform="translate(660.442 167.108) rotate(180)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

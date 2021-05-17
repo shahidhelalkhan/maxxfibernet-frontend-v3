@@ -1,0 +1,21 @@
+.narrow-container-terms{
+    width: 70%;
+    margin-left: 15%;
+}
+.terms-cat{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.terms li{
+    padding: 10px;
+    font-size: 1rem;
+}
+@media(max-width:900px){
+    .narrow-container-terms{
+        width: 90%;
+        margin-left: 5%;
+    }
+    h1{
+        font-size: 2rem;
+    }
+}

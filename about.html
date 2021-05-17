@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        MaxxFiberNet
+    </title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="about.css">
+    <script src="https://kit.fontawesome.com/c253558678.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="top-navbar">
+        <ul class="toplist">
+            <li>
+                <a href="tel:+919695136926">
+                    <i class="fas fa-phone-alt"></i>
+                    (+91)9695136926
+                </a>
+            </li>
+            <li>
+                <a href="mailto:connect@maxxfibernet.in">
+                    <i class="fas fa-envelope"></i>
+                    connect@maxxfibernet.in
+                </a>
+            </li>
+            <li>
+                <a>
+                    <i class="fas fa-map-marker-alt"></i>
+                    Ambedkar Nagar
+                </a>
+            </li>
+            
+            <li>
+                <a id="myBtn" style="cursor: pointer;">
+                    <i class="fas fa-credit-card"></i>
+                        Quick Pay
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+        <ul class="top-mobile">
+            <li>
+                <a href="tel:+919695136926">
+                    <i class="fas fa-phone-alt"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://maxxfibernet.in/login">
+                    <i class="fas fa-unlock-alt"></i>
+                </a>
+            </li>
+            <li>
+            <a href="mailto:connect@maxxfibernet.in">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+    </ul>
+    </div>
+    <div class="main-navbar">
+        <div class="logo-div">
+           <a href="http://maxxfibernet.in/"> <img class="logo" src="logo.png"></a>
+        </div>
+        <div class="navbar">
+            <ul class="main-navbar-list">
+                <li>
+                    <a href="http://maxxfibernet.in/">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="http://maxxfibernet.in/about">
+                        <i class="fas fa-user"></i>
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="http://maxxfibernet.in/plans">
+                        <i class="fas fa-list"></i>
+                        Our Plans
+                    </a>
+                </li>
+                <li>
+                    <a href="http://maxxfibernet.in/login">
+                        <i class="fas fa-unlock-alt"></i>
+                        Login
+                    </a>
+                </li>
+
+                <li>
+                    <a href="http://maxxfibernet.in/contact">
+                        <i class="fas fa-phone-alt"></i>
+                        Contact us
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="new-connection">
+            <a class="new-connection-button" href="#">Get a New Connection</a>
+            <a href="#" id="open"></a><i id="hamberger" class="fas fa-bars" onclick="toggleClass()"></i></a>
+        </div>
+    </div>
+    <div class="vertical-menu" style="display: none;">
+        <ul class="vertical-menu-list">
+            <li>
+                <a href="http://maxxfibernet.in/">
+                    <i class="fas fa-home"></i>
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="http://maxxfibernet.in/about">
+                    <i class="fas fa-user"></i>
+                    About
+                </a>
+            </li>
+            <li>
+                <a href="http://maxxfibernet.in/plans">
+                    <i class="fas fa-list"></i>
+                    Our Plans
+                </a>
+            </li>
+            <li>
+                <a href="http://maxxfibernet.in/login">
+                    <i class="fas fa-unlock-alt"></i>
+                    Login
+                </a>
+            </li>
+
+            <li>
+                <a href="http://maxxfibernet.in/contact">
+                    <i class="fas fa-phone-alt"></i>
+                    Contact us
+                </a>
+            </li>
+            <li>
+                <a id="myBtn" style="cursor: pointer;">
+                    <i class="fas fa-credit-card"></i>
+                        Quick Pay
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <img src="Assets/business.jpg" style="width:100%;">
+      </div>
+    </div>
+    </div>
+  <script>
+                  // Get the modal
+      var modal = document.getElementById("myModal");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+      modal.style.display = "block";
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+      modal.style.display = "none";
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+      }
+
+      function toggleClass(){
+      var navbar = document.getElementsByClassName("vertical-menu")[0];
+      if(navbar.style.display === "none"){
+          navbar.style.display = "block"
+      }else{
+          navbar.style.display="none"
+      }
+  }
+      </script>
+      <div class="header-image-container">
+          <img src="Assets/about-header-image.png" style="width: 100%;height: 100%;">
+      </div>
+      <div class="narrow-container-two">
+          <div class="two-body-features">
+              <div class="fast-internet-feature">
+                  <i class="fas fa-tachometer-alt"></i>
+                  <p class="body-descr">
+                    India’s Fastest Internet
+                  </p>
+              </div>
+              <div class="fast-internet-feature">
+                <i class="fas fa-globe"></i>
+                <p class="body-descr">
+                  Managed Services
+                </p>
+            </div>
+          </div>
+        </div>
+        <br>        <br>
+
+        <div class="main-about">
+            <div class="about-para">
+                <h1 class="how-why" style="color: #000;font-size: 2.5rem;">
+                    About <b style="color: #e40044;">Maxx Fibernet.</b>
+                  </h1>
+                <h3 class="about-parag">
+                    Maxx Fibernet Broadband primarily focuses on providing fixed broadband to areas of the city that are currently under served by traditional telecom and cable companies.<br><br> The company's current network footprint covers in Ambedkar Nagar region targeting to cover the addressable market of entire country homes, as well as small to mid-size businesses. We are always driving towards a better and more exciting future for our clients. We have pioneered the art of providing affordable broadband service in market.
+                    <br><br>
+                    Maxx Fibernet Broadband is currently working as "B" Class ISP of Ambedkar Nagar for broadband and other services. As 100% owned and operated in Ambedkar Nagar, the firm with independent Director Mr. Shahid Jamal, having large business experience of Satellite & Telecom industry since 2014 provides sound governance and brings a wealth of experience from both the public and private sectors.
+                </h3>
+            </div>
+            <div class="about-image-side">
+                <img src="Assets/about_2.png">
+            </div>
+        </div>
+        <br><br>
+        <div class="main-about">
+            <div class="about-para">
+                <h1 class="how-why" style="color: #000;font-size: 2.5rem;">
+                    BENEFITS OF
+                    <b style="color: #e40044;">CHOOSING BROADBAND</b>
+                  </h1>
+                <h3 class="about-parag">
+                    <b style="color: #e40044;">Broadband</b> is characterized as a high transmission capacity association with the Internet. Broadband is less demanding and speedier to use than the conventional phone and modem as data might be sent and downloaded much snappier.<br><br>
+                    <b style="color: #e40044;">Broadband</b> could be furnished over your telephone line, through link or by means of satellite. It includes extensive volumes of data being conveyed at high speeds to your PC. This permits sites, content, representation, music and films to be encountered continuously.<br><br>
+                    <b style="color: #e40044;">Broadband</b>, hence, has numerous offers that might be exploited in the home or office broadband likewise accompanies an alluring bundle of worth added administrations to make your broadband experience all the more satisfying.
+                    Browse an extensive variety of engaging plans, from information confine plans to boundless plans to multi-month plans to unique day/ night plans, intended to meet your particular Internet prerequisites and fit your plan.
+                    
+                </h3>
+            </div>
+        </div>
+        <br><br>
+        <footer>
+            <div class="footer-contents">
+                <div class="contact-form">
+                    <h1 class="contact-heading">
+                        GET IN TOUCH
+                    </h1>
+                    <form>
+                        <div class="form-group">
+                            <i class="fas fa-user"></i><input type="text" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <i class="fas fa-envelope"></i><input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group" id="message">
+                            <i class="fas fa-comment"></i><input type="text" placeholder="Message">
+                        </div>
+                        <input type="button" value="Submit" class="submit-btn">
+                    </form>
+                </div>
+                <div class="useful-links">
+                    <h1 class="contact-heading">
+                        USEFUL LINKS
+                    </h1>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="http://maxxfibernet.in/privacy-policy">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="http://maxxfibernet.in/terms-conditions">Terms and Conditions</a>
+                        </li>
+                        <li>
+                            <a href="http://maxxfibernet.in/terms-conditions">Refund And Cancellation Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="useful-links">
+                    <h1 class="contact-heading">
+                        CONTACT INFO
+                    </h1>
+                    <ul class="footer-links">
+                        <li>
+                            <i style="color:#e40044;font-size: 1.25rem;" class="fas fa-map-marker-alt"></i> Address<br><br>
+                            1.Karamatiya Market, Sarai Chowk, Jalalpur Ambedkar Nagar
+                            <br><br>
+                            2.Old Hospital Gali, Meeranpur, Akbarpur, Ambedkar Nagar
+                        </li>
+                        <li>
+                            <i style="color:#e40044;font-size: 1.25rem;" class="fas fa-phone-alt"></i> Phone<br><br>
+                            +917310444123
+                        </li>
+                        <li>
+                            <i style="color:#e40044;font-size: 1.25rem;" class="fas fa-envelope"></i> Email<br><br>
+                            connect@maxxfibernet.in
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </footer>
+</body>

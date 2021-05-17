@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Terms and Conditions | Maxx Fibernet
+    </title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="terms-conditions.css">
+    <script src="https://kit.fontawesome.com/c253558678.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="top-navbar">
+        <ul class="toplist">
+            <li>
+                <a href="tel:+919695136926">
+                    <i class="fas fa-phone-alt"></i>
+                    (+91)9695136926
+                </a>
+            </li>
+            <li>
+                <a href="mailto:connect@maxxfibernet.in">
+                    <i class="fas fa-envelope"></i>
+                    connect@maxxfibernet.in
+                </a>
+            </li>
+            <li>
+                <a>
+                    <i class="fas fa-map-marker-alt"></i>
+                    Ambedkar Nagar
+                </a>
+            </li>
+            
+            <li>
+                <a id="myBtn" style="cursor: pointer;">
+                    <i class="fas fa-credit-card"></i>
+                        Quick Pay
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+        <ul class="top-mobile">
+            <li>
+                <a href="tel:+919695136926">
+                    <i class="fas fa-phone-alt"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://maxxfibernet.in/login">
+                    <i class="fas fa-unlock-alt"></i>
+                </a>
+            </li>
+            <li>
+            <a href="mailto:connect@maxxfibernet.in">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+    </ul>
+    </div>
+    <div class="main-navbar">
+        <div class="logo-div">
+           <a href="http://maxxfibernet.in/"> <img class="logo" src="logo.png"></a>
+        </div>
+        <div class="navbar">
+            <ul class="main-navbar-list">
+                <li>
+                    <a href="http://maxxfibernet.in/">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="http://maxxfibernet.in/about">
+                        <i class="fas fa-user"></i>
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="http://maxxfibernet.in/plans">
+                        <i class="fas fa-list"></i>
+                        Our Plans
+                    </a>
+                </li>
+                <li>
+                    <a href="http://maxxfibernet.in/login">
+                        <i class="fas fa-unlock-alt"></i>
+                        Login
+                    </a>
+                </li>
+
+                <li>
+                    <a href="http://maxxfibernet.in/contact">
+                        <i class="fas fa-phone-alt"></i>
+                        Contact us
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="new-connection">
+            <a class="new-connection-button" href="#">Get a New Connection</a>
+            <a href="#" id="open"></a><i id="hamberger" class="fas fa-bars" onclick="toggleClass()"></i></a>
+        </div>
+    </div>
+    <div class="vertical-menu" style="display: none;">
+        <ul class="vertical-menu-list">
+            <li>
+                <a href="http://maxxfibernet.in/">
+                    <i class="fas fa-home"></i>
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="http://maxxfibernet.in/about">
+                    <i class="fas fa-user"></i>
+                    About
+                </a>
+            </li>
+            <li>
+                <a href="http://maxxfibernet.in/plans">
+                    <i class="fas fa-list"></i>
+                    Our Plans
+                </a>
+            </li>
+            <li>
+                <a href="http://maxxfibernet.in/login">
+                    <i class="fas fa-unlock-alt"></i>
+                    Login
+                </a>
+            </li>
+
+            <li>
+                <a href="http://maxxfibernet.in/contact">
+                    <i class="fas fa-phone-alt"></i>
+                    Contact us
+                </a>
+            </li>
+            <li>
+                <a id="myBtn" style="cursor: pointer;">
+                    <i class="fas fa-credit-card"></i>
+                        Quick Pay
+                </a>
+            </li>
+        </ul>
+    </div>
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <img src="Assets/business.jpg" style="width:100%;">
+            </div>
+          
+          </div>
+        <script>
+                        // Get the modal
+            var modal = document.getElementById("myModal");
+
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks the button, open the modal 
+            btn.onclick = function() {
+            modal.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+            modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+            }
+
+            function toggleClass(){
+            var navbar = document.getElementsByClassName("vertical-menu")[0];
+            if(navbar.style.display === "none"){
+                navbar.style.display = "block"
+            }else{
+                navbar.style.display="none"
+            }
+        }
+            function showHide(){
+                document.getElementById("wireless").style.display="block";
+                document.getElementById("wired").style.display="none";
+                document.getElementById("plans-switch2").style.color="#e40044";
+                document.getElementById("plans-switch2").style.borderBottom="2px solid #e40044";
+                document.getElementById("plans-switch").style.borderBottom="none";
+                document.getElementById("plans-switch").style.color="#000629";
+       }
+        function hideShow(){
+                document.getElementById("wired").style.display="block";
+                document.getElementById("wireless").style.display="none";
+                document.getElementById("plans-switch").style.color="#e40044";
+                document.getElementById("plans-switch2").style.color="#000629";
+                document.getElementById("plans-switch").style.borderBottom="2px solid #e40044";
+                document.getElementById("plans-switch2").style.borderBottom="none";
+        }
+            </script>
+            <div class="terms-image-container">
+                <img src="Assets/terms.png" style="width: 100%;height: 100%;">
+            </div>
+            <h1 style="color: #e40044;text-align: center;font-size: 2.5rem;">
+                Terms and Conditions
+            </h1>
+            <div class="narrow-container-terms">
+                <p class="terms-cat">
+                    (A) CUSTOMER OBLIGATIONS
+                </p>
+                <div class="terms-container">
+                        <ol class="terms">
+                            <li>
+                                Understands that the Internet Services is governed by Internet Service Provider and other applicable licenses and laws of the Indian Government (Department of Telecommunications). Customer shall therefore ensure compliance to ALL such license conditions and laws and also ensure that Internet Services (hereinafter “Service”) provided by Simplex Broadband Private Limited. (herein after Maxx Fibernet) is not connected with PSTN (Public Switch Telephony Network). Any infringement would result in termination of Service without any notice. This will be in addition to any action taken by the Government, or under the Law. Understands further that the Internet contains unedited materials some of which are sexually explicit or may be offensive to some people. Customer accesses such material at his own risk. Maxx Fibernet has no control over and accepts no responsibility whatsoever for such materials.
+                            </li>
+                            <li>
+                                Shall also not use the services for any anti-national activity.
+                            </li>
+                            <li>
+                                Understands that customer is fully responsible for any misuse of IP’s allotted to him by Maxx Fibernet.
+                            </li>
+                            <li>
+                                Understands further that under no circumstances shall Maxx Fibernet , its affiliates or its contractors be liable for any direct, indirect, incidental, special, punitive or consequential damages that result in any way from Customer’s use of or inability to use Service or any part thereof, or Customers reliance on or use of information, services or merchandise provided on or through Service, or that results from mistakes, omission, interruption, errors, defects, delays in operations, or transmission, or any failure of performance.
+                            </li>
+                            <li>
+                                Will allow personnel of Maxx Fibernet or Vendor so authorized to install equipment as also lay necessary cables for the connectivity.
+                            </li>
+                            <li>
+                                Will arrange for installation of CPE (Customer Premises Equipment) at a safe place free from dust, humidity and heat, preferably in an air-conditioned environment in case that is provided by Maxx Fibernet.
+                            </li>
+                            <li>
+                                Shall allow necessary access for maintenance activities of such equipment whenever required by Maxx Fibernet at its premises.
+                            </li>
+                            <li>
+                                Arrange for un-interrupted and regulated (Sine-wave) power supply for equipment of specifications supplied by Maxx Fibernet , if the equipment has been installed by Maxx Fibernet.
+                            </li>
+                            <li>
+                                Shall pay the royalty to WPC and all other statutory fees or charges to make the service operational.
+                            </li>
+                            <li>
+                                Will not resell the bandwidth/connectivity provided by Maxx Fibernet until and unless otherwise agreed separately with Maxx Fibernet in writing as an addendum to this Agreement.
+                            </li>
+                            <li>
+                                Will pay to Maxx Fibernet for taking Service from them at the prescribed rate, as described on the face of this form. Rates may be revised from time to time. Customer will be informed in writing, through any means of communication possible, in case the rates are revised. Payment must be received by the due date to avoid suspension/ disconnection of the service. Non-receipt of the invoice by customer cannot be a reason for non-payment. The customer must contact the accounts department of Maxx Fibernet and obtain duplicate copies of the invoice, if required.
+                            </li>
+                            <li>
+                                Understands that the date of placement of order is deemed to be the date of this Agreement.
+                            </li>
+                            <li>
+                                Understands that it is the Customer’s responsibility to get last mile connection from the nearest available source unless specifically mentioned in the front of this Agreement.
+                            </li>
+                            <li>
+                                Understands that the Customer will make payment, for Service, in favor of Simplex Broadband Private Limited , payable at Lucknow. If the payment is made in cash, Customer must insist to have a proper/ valid receipt against cash payment and submit the same with Maxx Fibernet as and when requested by Maxx Fibernet . The Customer may make the payment also by purchasing vouchers available at Simplex, Authorized Agents or websites.
+                            </li>
+                            <li>
+                                Understands that all hardware equipment including Access Equipment at Customer’s Premises supplied by Maxx Fibernet would remain property of Maxx Fibernet and Customer will not prohibit authorized employees of Maxx Fibernet or Vendor so authorized to access, maintain and replace the equipment or any part there of installed inside Customer’s premises. Customer undertakes not to obstruct removal of the equipment installed inside Customer’s premises by Maxx Fibernet or Vendor so authorized on Maxx Fibernet written authorization on discontinuation / disconnection of services or termination of service under “Exit Policy”, since the same is the property of Maxx Fibernet.
+                            </li>
+                            <li>
+                                Understands that Customer Premises Equipment is third party equipment procured by Maxx Fibernet for providing connection to Customer. Maxx Fibernet shall make all efforts to get this equipment repaired at the earliest and at its sole discretion decide whether a defect in the equipment is to be repaired or the defective part is to be replaced. Customer undertakes not to obstruct or prohibit Maxx Fibernet or Vendor so authorized on Maxx Fibernet written authorization to take the equipment or any part of it from Customer premises thereof for rectification to its service center when deemed so necessary by Maxx Fibernet at its sole discretion. All defective parts after replacement and other replacements become the property of Maxx Fibernet, Customer having no right over them whatsoever.
+                            </li>
+                            <li>
+                                Shall undertake all necessary Government permissions, clearances and approvals to make the service operational beyond the Service provided by Maxx Fibernet.
+                            </li>
+                            <li>
+                                Understands that civil engineering works, if any, shall be the responsibility of Customer. Customer will ensure that necessary formalities for undertaking such works are obtained from the property owners and Government authorities, wherever necessary.
+                            </li>
+                            <li>
+                                Advance rental will be forfeited in case of any delay from customer’s side related to power and space issue at BTS end.
+                            </li>
+                        </ol>
+                </div>
+                <p class="terms-cat">
+                    (B) EXIT CLAUSE:
+                </p>
+                <div class="terms-container">
+                    <ul style="list-style-type: none;">
+                        <li style="font-size: 1rem;">
+                            This Agreement is valid for an initial term for one year and renewed automatically for a one year term on the expiry of the previous term unless terminated by Maxx Fibernet or Customer as per this clause and “Disconnection Terms” mentioned elsewhere in this Agreement. Maxx Fibernet can terminate this Agreement by giving one month notice. Customer may terminate this Agreement after the initial term by giving one month notice. Customer is liable to pay service fee for the balance of the term if he desires to terminate or terminates this Agreement. In addition, Customer is also liable to pay one month service fee if the Customer terminates the Agreement without providing adequate notice.
+
+                        </li>
+                    </ul>
+                </div>
+                <p class="terms-cat">
+                    (C) DISCONNECTION TERMS
+                </p>
+                <div class="terms-container">
+                    <ol class="terms">
+                        <li>
+                            Maxx Fibernet retains the right to terminate this Agreement immediately in case of Customer’s default under clause 1, 2,3,5,6,7,10 and 14 of “Customer’s Obligations”.
+                        </li>
+                        <li>
+                            Any loss of business suffered by the Customer due to disconnection affected under clause a above will be his own responsibility and so borne by him. Disconnection under clause a above will not require any notice and no refund will be given to the Customer for unused portion of Service.
+                        </li>
+                    </ol>
+                </div>
+                <p class="terms-cat">
+                    (D) APPLICABLE LAWS
+                </p>
+                <div class="terms-container">
+                    <ul style="list-style-type: none;">
+                        <li style="font-size: 1rem;">
+                            The laws of India shall govern this Agreement. The parties shall submit to the exclusive jurisdiction of Courts in Lucknow. The Customer shall abide by all the applicable laws, rules and or regulations and shall keep Maxx Fibernet indemnified against any damage, loss and claims arising out of its negligent acts or omissions. The Customer must indemnify Maxx Fibernet against any claims or legal proceedings arising from provision of Service, which are brought against Maxx Fibernet by anyone using Service under or through Customer because:
+                        </li>
+                    </ul>
+                    <ol class="terms">
+                        <li>
+                            Service is used in breach of terms /conditions in this Agreement.
+                        </li>
+                        <li>
+                            Service is faulty and cannot be used by a third Party.
+                        </li>
+                    </ol>
+                </div>
+                <p class="terms-cat">
+                    (E) FORCE MAJEURE
+                </p>
+                <div class="terms-container">
+                    <ul style="list-style-type: none;">
+                        <li style="font-size: 1rem;">
+                            Maxx Fibernet shall not be responsible or liable for any failure on its part to fulfill its obligations contained herein if such failure is on account of a force majeure event. Force Majeure shall mean such unforeseeable occurrences beyond the reasonable control of Maxx Fibernet such as:
+
+                        </li>
+                    </ul>
+                    <ol class="terms">
+                        <li>
+                            Acts of God, natural catastrophes, frequency interference from external source, epidemics, earthquakes;
+                        </li>
+                        <li>
+                            Strikes and blockades; either by Maxx Fibernet personnel or others affecting Service.
+                        </li>
+                        <li>
+                            War or war-like conditions, mobilization, revolutions or riots, acts of public enemy, sabotage, terrorism;
+                        </li>
+                        <li>
+                            Restriction by or actions, omissions or interventions of Indian public authorities (including but not limited to changes in laws, regulations or import / export, security restrictions).
+                        </li>
+                        <li>
+                            Disconnection or deterioration of service by Maxx Fibernet vendor.
+
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <footer>
+                <div class="footer-contents">
+                    <div class="contact-form">
+                        <h1 class="contact-heading">
+                            GET IN TOUCH
+                        </h1>
+                        <form>
+                            <div class="form-group">
+                                <i class="fas fa-user"></i><input type="text" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <i class="fas fa-envelope"></i><input type="email" placeholder="Email" required>
+                            </div>
+                            <div class="form-group" id="message">
+                                <i class="fas fa-comment"></i><input type="text" placeholder="Message">
+                            </div>
+                            <input type="button" value="Submit" class="submit-btn">
+                        </form>
+                    </div>
+                    <div class="useful-links">
+                        <h1 class="contact-heading">
+                            USEFUL LINKS
+                        </h1>
+                        <ul class="footer-links">
+                            <li>
+                                <a href="http://maxxfibernet.in/privacy-policy">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="http://maxxfibernet.in/terms-conditions">Terms and Conditions</a>
+                            </li>
+                            <li>
+                                <a href="http://maxxfibernet.in/terms-conditions">Refund And Cancellation Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="useful-links">
+                        <h1 class="contact-heading">
+                            CONTACT INFO
+                        </h1>
+                        <ul class="footer-links">
+                            <li>
+                                <i style="color:#e40044;font-size: 1.25rem;" class="fas fa-map-marker-alt"></i> Address<br><br>
+                                1.Karamatiya Market, Sarai Chowk, Jalalpur Ambedkar Nagar
+                                <br><br>
+                                2.Old Hospital Gali, Meeranpur, Akbarpur, Ambedkar Nagar
+                            </li>
+                            <li>
+                                <i style="color:#e40044;font-size: 1.25rem;" class="fas fa-phone-alt"></i> Phone<br><br>
+                                +917310444123
+                            </li>
+                            <li>
+                                <i style="color:#e40044;font-size: 1.25rem;" class="fas fa-envelope"></i> Email<br><br>
+                                connect@maxxfibernet.in
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </footer>
+    </body>

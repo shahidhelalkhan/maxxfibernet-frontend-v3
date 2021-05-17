@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        MaxxFiberNet
+    </title>
+
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/c253558678.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="top-navbar">
+        <ul class="toplist">
+            <li>
+                <a href="tel:+919695136926">
+                    <i class="fas fa-phone-alt"></i>
+                    (+91)9695136926
+                </a>
+            </li>
+            <li>
+                <a href="mailto:connect@maxxfibernet.in">
+                    <i class="fas fa-envelope"></i>
+                    connect@maxxfibernet.in
+                </a>
+            </li>
+            <li>
+                <a>
+                    <i class="fas fa-map-marker-alt"></i>
+                    Ambedkar Nagar
+                </a>
+            </li>
+            
+            <li>
+                <a id="myBtn" style="cursor: pointer;">
+                    <i class="fas fa-credit-card"></i>
+                        Quick Pay
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+        <ul class="top-mobile">
+            <li>
+                <a href="tel:+919695136926">
+                    <i class="fas fa-phone-alt"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://maxxfibernet.in/login">
+                    <i class="fas fa-unlock-alt"></i>
+                </a>
+            </li>
+            <li>
+            <a href="mailto:connect@maxxfibernet.in">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+    </ul>
+    </div>
+    <div class="main-navbar">
+        <div class="logo-div">
+           <a href="http://maxxfibernet.in/"> <img class="logo" src="logo.png"></a>
+        </div>
+        <div class="navbar">
+            <ul class="main-navbar-list">
+                <li>
+                    <a href="http://maxxfibernet.in/">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="http://maxxfibernet.in/about">
+                        <i class="fas fa-user"></i>
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="http://maxxfibernet.in/plans">
+                        <i class="fas fa-list"></i>
+                        Our Plans
+                    </a>
+                </li>
+                <li>
+                    <a href="http://maxxfibernet.in/login">
+                        <i class="fas fa-unlock-alt"></i>
+                        Login
+                    </a>
+                </li>
+
+                <li>
+                    <a href="http://maxxfibernet.in/contact">
+                        <i class="fas fa-phone-alt"></i>
+                        Contact us
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="new-connection">
+            <a class="new-connection-button" href="#">Get a New Connection</a>
+            <a href="#" id="open"></a><i id="hamberger" class="fas fa-bars" onclick="toggleClass()"></i></a>
+        </div>
+    </div>
+    <div class="vertical-menu" style="display: none;">
+        <ul class="vertical-menu-list">
+            <li>
+                <a href="http://maxxfibernet.in/">
+                    <i class="fas fa-home"></i>
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="http://maxxfibernet.in/about">
+                    <i class="fas fa-user"></i>
+                    About
+                </a>
+            </li>
+            <li>
+                <a href="http://maxxfibernet.in/plans">
+                    <i class="fas fa-list"></i>
+                    Our Plans
+                </a>
+            </li>
+            <li>
+                <a href="http://maxxfibernet.in/login">
+                    <i class="fas fa-unlock-alt"></i>
+                    Login
+                </a>
+            </li>
+
+            <li>
+                <a href="http://maxxfibernet.in/contact">
+                    <i class="fas fa-phone-alt"></i>
+                    Contact us
+                </a>
+            </li>
+            <li>
+                <a id="myBtn" style="cursor: pointer;">
+                    <i class="fas fa-credit-card"></i>
+                        Quick Pay
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="abc">
+        <img src="Assets/mobile-slider.svg">
+    </div>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="Assets/gaming.png" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="Assets/workhome.png" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="Assets/fastestinternet.png" style="width:100%">
+        </div>
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        <br>
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <img src="Assets/business.jpg" style="width:100%;">
+            </div>
+          
+          </div>
+        <script>
+                        // Get the modal
+            var modal = document.getElementById("myModal");
+
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks the button, open the modal 
+            btn.onclick = function() {
+            modal.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+            modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+            }
+
+            function toggleClass(){
+            var navbar = document.getElementsByClassName("vertical-menu")[0];
+            if(navbar.style.display === "none"){
+                navbar.style.display = "block"
+            }else{
+                navbar.style.display="none"
+            }
+        }
+
+        var slideIndex = 0;
+        showSlides();
+            
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+            function showHide(){
+                document.getElementById("wireless").style.display="block";
+                document.getElementById("wired").style.display="none";
+                document.getElementById("plans-switch2").style.color="#e40044";
+                document.getElementById("plans-switch2").style.borderBottom="2px solid #e40044";
+                document.getElementById("plans-switch").style.borderBottom="none";
+                document.getElementById("plans-switch").style.color="#000629";
+       }
+        function hideShow(){
+                document.getElementById("wired").style.display="block";
+                document.getElementById("wireless").style.display="none";
+                document.getElementById("plans-switch").style.color="#e40044";
+                document.getElementById("plans-switch2").style.color="#000629";
+                document.getElementById("plans-switch").style.borderBottom="2px solid #e40044";
+                document.getElementById("plans-switch2").style.borderBottom="none";
+        }
+            </script>
+    <div class="narrow-container">
+        <br>
+        <h1 class="offer-header">
+            We offer, What You need
+        </h1>
+        <div class="our-offer">
+            <div class="offer-one">
+                <div class="icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="heading-and-descr">
+                    <h3 class="offer-heading">
+                        Internet for All
+                    </h3>
+                    <h5 class="offer-descr">
+                        We Provide Internet to Home as well as Businesses, too, to cater all.
+                    </h5>
+                </div>
+            </div>
+            <div class="offer-one">
+                <div class="icon">
+                    <i class="fas fa-thumbs-up"></i>
+                </div>
+                <div class="heading-and-descr">
+                    <h3 class="offer-heading">
+                        99.9% Uptime
+                    </h3>
+                    <h5 class="offer-descr">
+                        We Provide 99.9% Uptime to all our users with 0% Downtime, guaranteed.
+                    </h5>
+                </div>
+            </div>
+            <div class="offer-one" id="break">
+                <div class="icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <div class="heading-and-descr">
+                    <h3 class="offer-heading">
+                        24X Support
+                    </h3>
+                    <h5 class="offer-descr">
+                        We Believe in Customer Support, thus We are available for you.
+                    </h5>
+                </div>
+            </div>
+            <div class="offer-one" id="break">
+                <div class="icon">
+                    <i class="fas fa-smile"></i>
+                </div>
+                <div class="heading-and-descr">
+                    <h3 class="offer-heading">
+                        High Speed Broadband
+                    </h3>
+                    <h5 class="offer-descr">
+                        We provide Ultra-Fast broadband plans up to 100 Mbps with unlimited* usage.
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="call-section">
+        <a href="tel:+91731044123">
+        <img class="desktop-version" src="Assets/callbanner100.png" style="width: 100%;" >
+        <img class="mobile-version" src="Assets/mobileslider2.png" style="width: 100%;" >
+    </a>
+    </div>
+    <div class="narrow-container">
+        <h1 class="main-plans-heading">
+            Our Plans
+        </h1>
+        <div class="plans-switcher" style="display: flex;">
+            <h1 class="plans-switch" id="plans-switch" onclick="hideShow()" style="cursor: pointer;">
+                <i class="fas fa-network-wired"></i> Wired
+            </h1>
+            <h1 class="plans-switch" id="plans-switch2" onclick="showHide()" style="cursor: pointer;">
+                <i class="fas fa-broadcast-tower"></i> Wireless
+            </h1>
+     </div>
+    <div id="wired">
+        <div class="plans">
+            <div class="plan-one">
+                <div class="plan-top-section">
+                    <h2 class="plan-heading">
+                        BASIC
+                    </h2>
+                    <h2 class="plan-speed">
+                        25<br><span>Mbps</span>
+                    </h2>
+                </div>
+                <div class="plan-specs">
+                    <h3 class="specs">
+                        <i class="fas fa-rupee-sign"></i> 599/-<br>
+                    </h3>
+                    <h3 class="specs">
+                        <i class="fas fa-infinity"></i> Unlimited Data
+                    </h3>
+                    <h3 class="specs">
+                        <i class="fas fa-calendar-alt"></i> Validity : 1 Month
+                    </h3>
+                    <h3 class="specs">
+                        <i class="far fa-plus-square"></i> GST 18% Included
+                    </h3>
+                </div>
+                <div class="select-plan">
+                    <a href="#">Select Plan</a>
+                </div>
+            </div>
+            <div class="plan-one" id="popular">
+                <div class="plan-top-section">
+                    <h2 class="plan-heading">
+                        GOLD
+                    </h2>
+                    <h2 class="plan-speed">
+                        100<br><span>Mbps</span>
+                    </h2>
+                </div>
+                <div class="plan-specs">
+                    <h3 class="specs">
+                        <i class="fas fa-rupee-sign"></i> 999/-<br>
+                    </h3>
+                    <h3 class="specs">
+                        <i class="fas fa-infinity"></i> Unlimited Data
+                    </h3>
+                    <h3 class="specs">
+                        <i class="fas fa-calendar-alt"></i> Validity : 1 Month
+                    </h3>
+                    <h3 class="specs">
+                        <i class="far fa-plus-square"></i> GST 18% Included
+                    </h3>
+                </div>
+                <div class="select-plan">
+                    <a href="#">Select Plan</a>
+                </div>
+            </div>
+            <div class="plan-one">
+                <div class="plan-top-section">
+                    <h2 class="plan-heading">
+                        Platinum
+                    </h2>
+                    <h2 class="plan-speed">
+                        200<br><span>Mbps</span>
+                    </h2>
+                </div>
+                <div class="plan-specs">
+                    <h3 class="specs">
+                        <i class="fas fa-rupee-sign"></i> 1999/-<br>
+                    </h3>
+                    <h3 class="specs">
+                        <i class="fas fa-infinity"></i> Unlimited Data
+                    </h3>
+                    <h3 class="specs">
+                        <i class="fas fa-calendar-alt"></i> Validity : 1 Month
+                    </h3>
+                    <h3 class="specs">
+                        <i class="far fa-plus-square"></i> GST 18% Included
+                    </h3>
+                </div>
+                <div class="select-plan">
+                    <a href="#">Select Plan</a>
+                </div>
+            </div>
+            <div class="plan-one">
+                <div class="plan-top-section">
+                    <h2 class="plan-heading">
+                        Diamond
+                    </h2>
+                    <h2 class="plan-speed">
+                        300<br><span>Mbps</span>
+                    </h2>
+                </div>
+                <div class="plan-specs">
+                    <h3 class="specs">
+                        <i class="fas fa-rupee-sign"></i> 2999/-<br>
+                    </h3>
+                    <h3 class="specs">
+                        <i class="fas fa-infinity"></i> Unlimited Data
+                    </h3>
+                    <h3 class="specs">
+                        <i class="fas fa-calendar-alt"></i> Validity : 1 Month
+                    </h3>
+                    <h3 class="specs">
+                        <i class="far fa-plus-square"></i> GST 18% Included
+                    </h3>
+                </div>
+                <div class="select-plan">
+                    <a href="#">Select Plan</a>
+                </div>
+            </div>
+        </div>
+</div>
+    </div>
+    <div class="narrow-container">
+    <div id="wireless">
+        <div class="plans-wireless">
+            <div class="plan-one">
+                <div class="plan-top-section">
+                    <h2 class="plan-heading">
+                        BASIC
+                    </h2>
+                    <h2 class="plan-speed">
+                        10<br><span>Mbps</span>
+                    </h2>
+                </div>
+                <div class="plan-specs">
+                    <h3 class="specs">
+                        <i class="fas fa-rupee-sign"></i> 499/-<br>
+                    </h3>
+                    <h3 class="specs">
+                        240GB + 2Mb(FUP)
+                    </h3>
+                    <h3 class="specs">
+                        <i class="fas fa-calendar-alt"></i> Validity : 1 Month
+                    </h3>
+                    <h3 class="specs">
+                        <i class="far fa-plus-square"></i> GST 18% Included
+                    </h3>
+                </div>
+                <div class="select-plan">
+                    <a href="#">Select Plan</a>
+                </div>
+            </div>
+            <div class="plan-one">
+                <div class="plan-top-section">
+                    <h2 class="plan-heading">
+                       SILVER
+                    </h2>
+                    <h2 class="plan-speed">
+                        15<br><span>Mbps</span>
+                    </h2>
+                </div>
+                <div class="plan-specs">
+                    <h3 class="specs">
+                        <i class="fas fa-rupee-sign"></i> 799/-<br>
+                    </h3>
+                    <h3 class="specs">
+                        <i class="fas fa-infinity"></i> Unlimited Data
+                    </h3>
+                    <h3 class="specs">
+                        <i class="fas fa-calendar-alt"></i> Validity : 1 Month
+                    </h3>
+                    <h3 class="specs">
+                        <i class="far fa-plus-square"></i> GST 18% Included
+                    </h3>
+                </div>
+                <div class="select-plan">
+                    <a href="#">Select Plan</a>
+                </div>
+            </div>
+            <div class="plan-one" id="popular">
+                <div class="plan-top-section">
+                    <h2 class="plan-heading">
+                        GOLD
+                    </h2>
+                    <h2 class="plan-speed">
+                        20<br><span>Mbps</span>
+                    </h2>
+                </div>
+                <div class="plan-specs">
+                    <h3 class="specs">
+                        <i class="fas fa-rupee-sign"></i> 999/-<br>
+                    </h3>
+                    <h3 class="specs">
+                        <i class="fas fa-infinity"></i> Unlimited Data
+                    </h3>
+                    <h3 class="specs">
+                        <i class="fas fa-calendar-alt"></i> Validity : 1 Month
+                    </h3>
+                    <h3 class="specs">
+                        <i class="far fa-plus-square"></i> GST 18% Included
+                    </h3>
+                </div>
+                <div class="select-plan">
+                    <a href="#">Select Plan</a>
+                </div>
+            </div>
+            <div class="plan-one">
+                <div class="plan-top-section">
+                    <h2 class="plan-heading">
+                        PLATINUM
+                    </h2>
+                    <h2 class="plan-speed">
+                        30<br><span>Mbps</span>
+                    </h2>
+                </div>
+                <div class="plan-specs">
+                    <h3 class="specs">
+                        <i class="fas fa-rupee-sign"></i> 1299/-<br>
+                    </h3>
+                    <h3 class="specs">
+                        <i class="fas fa-infinity"></i> Unlimited Data
+                    </h3>
+                    <h3 class="specs">
+                        <i class="fas fa-calendar-alt"></i> Validity : 1 Month
+                    </h3>
+                    <h3 class="specs">
+                        <i class="far fa-plus-square"></i> GST 18% Included
+                    </h3>
+                </div>
+                <div class="select-plan">
+                    <a href="#">Select Plan</a>
+                </div>
+            </div>
+            <div class="plan-one">
+                <div class="plan-top-section">
+                    <h2 class="plan-heading">
+                        DIAMOND
+                    </h2>
+                    <h2 class="plan-speed">
+                        50<br><span>Mbps</span>
+                    </h2>
+                </div>
+                <div class="plan-specs">
+                    <h3 class="specs">
+                        <i class="fas fa-rupee-sign"></i> 1699/-<br>
+                    </h3>
+                    <h3 class="specs">
+                        <i class="fas fa-infinity"></i> Unlimited Data
+                    </h3>
+                    <h3 class="specs">
+                        <i class="fas fa-calendar-alt"></i> Validity : 1 Month
+                    </h3>
+                    <h3 class="specs">
+                        <i class="far fa-plus-square"></i> GST 18% Included
+                    </h3>
+                </div>
+                <div class="select-plan">
+                    <a href="#">Select Plan</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+            <div class="footer-contents">
+                <div class="contact-form">
+                    <h1 class="contact-heading">
+                        GET IN TOUCH
+                    </h1>
+                    <form>
+                        <div class="form-group">
+                            <i class="fas fa-user"></i><input type="text" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <i class="fas fa-envelope"></i><input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group" id="message">
+                            <i class="fas fa-comment"></i><input type="text" placeholder="Message">
+                        </div>
+                        <input type="button" value="Submit" class="submit-btn">
+                    </form>
+                </div>
+                <div class="useful-links">
+                    <h1 class="contact-heading">
+                        USEFUL LINKS
+                    </h1>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="http://maxxfibernet.in/privacy-policy">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="http://maxxfibernet.in/terms-conditions">Terms and Conditions</a>
+                        </li>
+                        <li>
+                            <a href="http://maxxfibernet.in/terms-conditions">Refund And Cancellation Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="useful-links">
+                    <h1 class="contact-heading">
+                        CONTACT INFO
+                    </h1>
+                    <ul class="footer-links">
+                        <li>
+                            <i style="color:#e40044;font-size: 1.25rem;" class="fas fa-map-marker-alt"></i> Address<br><br>
+                            1.Karamatiya Market, Sarai Chowk, Jalalpur Ambedkar Nagar
+                            <br><br>
+                            2.Old Hospital Gali, Meeranpur, Akbarpur, Ambedkar Nagar
+                        </li>
+                        <li>
+                            <i style="color:#e40044;font-size: 1.25rem;" class="fas fa-phone-alt"></i> Phone<br><br>
+                            +917310444123
+                        </li>
+                        <li>
+                            <i style="color:#e40044;font-size: 1.25rem;" class="fas fa-envelope"></i> Email<br><br>
+                            connect@maxxfibernet.in
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </footer>
+</body>
